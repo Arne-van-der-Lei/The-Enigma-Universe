@@ -177,10 +177,11 @@
       }
     },
     "com.vrchat.udonsharp": {
-      "version": "file:com.vrchat.udonsharp",
+      "version": "https://github.com/vrchat-community/UdonSharp.git?path=/Packages/com.vrchat.UdonSharp#ImageLoaderUpdate",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "e0f2bb6edc60b6c14a8135b1814559f4d994ecaf"
     },
     "com.vrchat.worlds": {
       "version": "file:com.vrchat.worlds",

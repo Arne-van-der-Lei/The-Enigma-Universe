@@ -2,6 +2,8 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+*
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -71,3 +73,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# User Assets
+/[Aa]ssets/PolygonNature/*
+/[Aa]ssets/PolygonFantasyKingdom/*
+/[Aa]ssets/Dark UI/*
+/[Aa]ssets/TextMesh Pro/*

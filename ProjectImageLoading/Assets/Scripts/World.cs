@@ -50,8 +50,11 @@ public class World : UdonSharpBehaviour
         new int[]{0, 3, 1, 0, 2, 3}
     };
 
+
+    public GameObject[] Prefabs;
     public Texture2D DownloadedTexture;
 
+    public Transform PrefabList;
     /// <summary>
     /// Section
     /// </summary>
@@ -72,9 +75,18 @@ public class World : UdonSharpBehaviour
         Downloader = new VRCImageDownloader();
 
         Downloader.DownloadImage(URL, null, behaviour);
+
+        Prefabs = new GameObject[PrefabList.childCount];
+
+        for (int i = 0; i < PrefabList.childCount; i++)
+        {
+            Prefabs[i] = PrefabList.GetChild(i).gameObject;
+        }
+
+        PrefabList.gameObject.SetActive(false);
     }
 
-    public void OnImageLoadSuccess(IVRCImageDownload result)
+    public override void OnImageLoadSuccess(VRC.SDK3.Image.IVRCImageDownload result)
     {
         DownloadedTexture = result.Result;
         pixels = DownloadedTexture.GetPixels32();
@@ -82,7 +94,7 @@ public class World : UdonSharpBehaviour
         GenerateTerrain();
     }
 
-    public void OnImageLoadError(IVRCImageDownload result)
+    public override void OnImageLoadError(IVRCImageDownload result)
     {
         Debug.Log("Failiure: " + result.Error + " , " + result.ErrorMessage);
     }
@@ -117,11 +129,21 @@ public class World : UdonSharpBehaviour
             int value = (green & 0b00001111);
             int color = green >> 4;
             int heightCel = pixels[index].r;
+            int indexPrefabs = pixels[index].b - 1;
             Vector2 colorOffset = new Vector2(color & 0b0011, (color & 0b1100) >> 2) / 4;
 
             Vector3[] vertToAdd = HeightLookup[value];
             Vector2[] UVToAdd = UVLookup[0];
             int[] TriToAdd = TriLookup[value];
+
+            if( indexPrefabs != -1)
+            {
+                GameObject gameObject = Prefabs[indexPrefabs];
+
+                GameObject instansiated = Object.Instantiate(gameObject, new Vector3(x, heightCel, y) - offset + new Vector3(0.5f,0,0.5f), gameObject.transform.rotation);
+
+                instansiated.transform.SetParent(transform);
+            }
 
             for (int j = 0; j < TriToAdd.Length; j++)
             {
