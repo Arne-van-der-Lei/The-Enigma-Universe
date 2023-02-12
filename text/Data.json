@@ -6,7 +6,7 @@
           {
             "ID": "896e9c30-7820-11ed-a59d-0d1a6a602a29",
             "x": -5.5,
-            "y": 7.5,
+            "y": -7.5,
             "Model": 0,
             "interactions": null,
             "MinWalkBounds": [
@@ -22,7 +22,7 @@
           {
             "ID": "bb1d91e0-7820-11ed-ad0d-9f10efde29f5",
             "x": 5.5,
-            "y": 4.5,
+            "y": -4.5,
             "Model": 0,
             "interactions": null,
             "MinWalkBounds": [
