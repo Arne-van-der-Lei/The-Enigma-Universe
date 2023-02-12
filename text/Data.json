@@ -3094,7 +3094,9 @@
         "height": 32,
         "width": 32
       },
-      "height": 0
+      "height": 0,
+      "xoffset": -16,
+      "yoffset": -16
     },
     "1": {
       "EntityData": {
@@ -6190,7 +6192,9 @@
         "height": 32,
         "width": 32
       },
-      "height": 0
+      "height": 1,
+      "xoffset": -48,
+      "yoffset": -16
     }
   }
 }
