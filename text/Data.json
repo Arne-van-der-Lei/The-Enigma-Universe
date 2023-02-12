@@ -1,6 +1,6 @@
 {
-  "levels": [
-    {
+  "levels": {
+    "0": {
       "EntityData": {
         "Entitys": []
       },
@@ -3096,5 +3096,5 @@
       },
       "height": 0
     }
-  ]
+  }
 }
