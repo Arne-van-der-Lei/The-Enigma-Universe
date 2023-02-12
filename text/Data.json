@@ -23,7 +23,7 @@
             "ID": "bb1d91e0-7820-11ed-ad0d-9f10efde29f5",
             "x": 21.5,
             "y": 20.5,
-            "Model": 1,
+            "Model": 0,
             "interactions": null,
             "MinWalkBounds": [
               18,
