@@ -6233,7 +6233,25 @@
     },
     "44dd5cd0-9f30-11ed-aa28-e507c5acf710": {
       "EntityData": {
-        "Entitys": []
+        "Entitys": [
+          {
+            "ID": "5941d620-9f30-11ed-95cc-2d3a8d67f62e",
+            "x": 10.5,
+            "y": 0.0,
+            "z": -27.5,
+            "Model": 0,
+            "interactions": null,
+            "MinWalkBounds": [
+              26,
+              43
+            ],
+            "MaxWalkBounds": [
+              26,
+              43
+            ],
+            "Name": "Mr."
+          }
+        ]
       },
       "ColorLevel": {
         "Data": [
