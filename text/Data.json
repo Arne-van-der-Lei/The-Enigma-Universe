@@ -11,11 +11,11 @@
             "Model": 0,
             "interactions": null,
             "MinWalkBounds": [
-              8,
+              7,
               22
             ],
             "MaxWalkBounds": [
-              12,
+              13,
               24
             ],
             "Name": "The tutorial"
