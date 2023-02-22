@@ -3,7 +3,7 @@
     "8487d6b0-7820-11ed-a59d-7f19065f75ad": {
       "height": 0,
       "xoffset": 0,
-      "yoffset": 32,
+      "yoffset": 16,
       "EntityData": {
         "Entitys": [
           {
@@ -3136,7 +3136,7 @@
     "8e457fb0-9f30-11ed-aa28-8d4a10688b47": {
       "height": 0,
       "xoffset": -32,
-      "yoffset": 32,
+      "yoffset": 16,
       "EntityData": {
         "Entitys": []
       },
@@ -6234,7 +6234,7 @@
     "44dd5cd0-9f30-11ed-aa28-e507c5acf710": {
       "height": 0,
       "xoffset": -32,
-      "yoffset": 0,
+      "yoffset": -48,
       "EntityData": {
         "Entitys": [
           {
@@ -18566,7 +18566,7 @@
     "7345b5d0-9f30-11ed-8425-13bea9502293": {
       "height": 0,
       "xoffset": -128,
-      "yoffset": 0,
+      "yoffset": -48,
       "EntityData": {
         "Entitys": []
       },
