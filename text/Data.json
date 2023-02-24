@@ -8,9 +8,10 @@
         "Entitys": [
           {
             "ID": "896e9c30-7820-11ed-a59d-0d1a6a602a29",
-            "x": -5.5,
+            "x": 10.5,
             "y": 0.0,
-            "z": -7.5,
+            "z": -23.5,
+            "rotation": 0.0,
             "Model": 0,
             "interactions": null,
             "MinWalkBounds": [
@@ -25,9 +26,10 @@
           },
           {
             "ID": "bb1d91e0-7820-11ed-ad0d-9f10efde29f5",
-            "x": -5.5,
+            "x": 10.5,
             "y": 1.0,
-            "z": 7.5,
+            "z": -8.5,
+            "rotation": 0.0,
             "Model": 0,
             "interactions": null,
             "MinWalkBounds": [
@@ -6239,9 +6241,10 @@
         "Entitys": [
           {
             "ID": "84459ec0-9f30-11ed-a7c6-bd3ea40eccd1",
-            "x": -15.5,
+            "x": 0.5,
             "y": 0.0,
-            "z": 15.5,
+            "z": -0.5,
+            "rotation": 0.0,
             "Model": 0,
             "interactions": null,
             "MinWalkBounds": [
