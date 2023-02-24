@@ -56,7 +56,7 @@
             "z": -8.5,
             "rotation": 0.0,
             "Model": 0,
-            "interactions": null,
+            "interactions": [],
             "MinWalkBounds": [
               9,
               6
@@ -6271,7 +6271,7 @@
             "z": -0.5,
             "rotation": 0.0,
             "Model": 0,
-            "interactions": null,
+            "interactions": [],
             "MinWalkBounds": [
               0,
               0
