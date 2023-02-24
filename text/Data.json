@@ -11,7 +11,7 @@
             "x": 10.5,
             "y": 0.0,
             "z": -23.5,
-            "rotation": 1.570796,
+            "rotation": 180.0,
             "Model": 0,
             "interactions": [
               {
