@@ -17,12 +17,26 @@
               {
                 "type": 0,
                 "question": "Hello how are you doing my dear friend?",
-                "awnsers": null
+                "awnsers": [
+                  {
+                    "awnser": "Who Are you?",
+                    "NextInteraction": 1
+                  },
+                  {
+                    "awnser": "You can Talk?",
+                    "NextInteraction": -1
+                  }
+                ]
               },
               {
                 "type": 0,
                 "question": "Im only the friendly test NPC you can talk to. Dont be allarmed!",
-                "awnsers": null
+                "awnsers": [
+                  {
+                    "awnser": "ok ....",
+                    "NextInteraction": -1
+                  }
+                ]
               }
             ],
             "MinWalkBounds": [
