@@ -40,12 +40,12 @@
               }
             ],
             "MinWalkBounds": [
-              -10.0625,
-              -22.125
+              -3.5,
+              -1.5
             ],
             "MaxWalkBounds": [
-              -9.6875,
-              -22.0
+              2.5,
+              0.5
             ],
             "Name": "The tutorial"
           },
@@ -58,12 +58,12 @@
             "Model": 0,
             "interactions": [],
             "MinWalkBounds": [
-              -9.9375,
-              -8.125
+              -1.5,
+              -2.5
             ],
             "MaxWalkBounds": [
-              -9.75,
-              -7.9375
+              1.5,
+              0.5
             ],
             "Name": "A lonely guy"
           }
